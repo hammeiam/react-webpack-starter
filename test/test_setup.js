@@ -28,7 +28,7 @@ global.shallowSetup = function(Component, defaultProps) {
   * For each test file, do:
   *   const setup = shallowSetup(React_Component, defaultProps)
   *
-  * Call this.setup in each test to pass unique props to your tested component, eg:
+  * Call `setup` in each test to pass unique props to your tested component, eg:
   *   const { result, renderer, props } = setup(testSpecificProps)
   */
 
