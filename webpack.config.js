@@ -1,11 +1,9 @@
 module.exports = {
-
   resolve: {
     extensions: ['', '.js', '.jsx']
   },
 
   devServer: {
-    hot: true,
     stats: { colors: true },
     port: 3001
   },

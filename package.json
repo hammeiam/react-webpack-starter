@@ -4,9 +4,9 @@
   "description": "",
   "main": "bundle.js",
   "scripts": {
-    "dev": "NODE_ENV=development node node_modules/.bin/webpack-dev-server ./src/index.js --inline",
-    "build": "NODE_ENV=production node node_modules/.bin/webpack src/index.js build/bundle.js -p --optimize-dedupe",
-    "test": "NODE_ENV=test node node_modules/.bin/_mocha test/*-test.js"
+    "dev": "NODE_ENV=development webpack-dev-server --entry ./src/index.js --hot --inline",
+    "build": "NODE_ENV=production webpack src/index.js build/bundle.js -p --optimize-dedupe",
+    "test": "NODE_ENV=test mocha test/*-test.js"
   },
   "keywords": [],
   "author": "",
