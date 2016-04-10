@@ -13,7 +13,6 @@ A small repo to kick off react/webpack projects. Goodies include:
 npm install
 npm run test
 npm run dev
-
 ```
 
 To add your own files, simply delete `src/ExampleComponent` and `test/ExampleComponent-test`, and add your own top-level component to `src/index.js`. New tests must end in `-test.js` to be found.
