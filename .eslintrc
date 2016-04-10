@@ -1,0 +1,19 @@
+{
+  "ecmaFeatures": {
+    "modules": true,
+    "blockBindings": true,
+    "jsx": true
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "globals": {
+    "console": true,
+    "document": true,
+    "window": true
+  },
+  "rules": {
+    "no-trailing-spaces": [2]
+  }
+}

@@ -1,0 +1,4 @@
+-R spec
+--compilers jsx:babel-core/register,less:./test/null-compiler,css:./test/null-compiler,jpg:./test/null-compiler,png:./test/null-compiler
+--require ./test/test_setup.js
+--recursive
