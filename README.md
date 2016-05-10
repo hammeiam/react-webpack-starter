@@ -1,7 +1,7 @@
 # react-webpack-starter
 
 A small repo to kick off react/webpack projects. Goodies include:
-  - transpiles es6 to es2015 via Babel
+  - transpiles ES6 to ES5 via Babel
   - dev environment with hot module replacement via webpack
   - linting via eslint
   - testing with mocha, expect, jsdom, and React TestUtils
