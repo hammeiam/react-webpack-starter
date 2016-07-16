@@ -3,7 +3,7 @@
 A small repo to kick off react/webpack projects. Goodies include:
   - transpiles ES6 to ES5 via Babel
   - dev environment with hot module replacement via webpack
-  - linting via eslint
+  - linting via eslint using [Airbnb's lint rules](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
   - testing with mocha, expect, jsdom, and React TestUtils
   - style using less or css
   - data-urlification of small images

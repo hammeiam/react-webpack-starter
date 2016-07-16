@@ -1,4 +1,5 @@
 {
+  "extends": "airbnb",
   "ecmaFeatures": {
     "modules": true,
     "blockBindings": true,
@@ -14,6 +15,10 @@
     "window": true
   },
   "rules": {
-    "no-trailing-spaces": [2]
+    "no-trailing-spaces": [2],
+    "jsx-quotes": ["error", "prefer-single"],
+    "arrow-body-style": ["error", "always"],
+    "jsx-a11y/img-has-alt": "off",
+    "global-require": "off"
   }
 }
